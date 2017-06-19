@@ -13,7 +13,7 @@ with open("fonts.ck", "r") as fontsFile:
                 temp.replace(characters[i], model[1][i])
             if model[2] != "NULL":
                 for i in range(0, 26):
-                    temp.replace(characters[i].upper(), model[2][i])
+                    temp.replace('"' + characters[i].upper() + '"', '"' + model[2][i] + '"')
             output = open(model[0] + ".keylayout", "w")
             output.write(temp)
             output.close()
