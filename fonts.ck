@@ -14,6 +14,6 @@ SmallCaps ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘQʀꜱᴛᴜᴠᴡxʏᴢ NUL
 Styled ค๒ς๔єŦﻮђเןкɭ๓ภ๏קợгรՇยשฬאץչ NULL
 Roman αв¢∂єƒgнιנкℓмησρqяѕтυνωχуz NULL
 Stroked Ⱥƀȼđɇfǥħɨɉꝁłmnøᵽꝗɍsŧᵾvwxɏƶ ȺɃȻĐɆFǤĦƗɈꝀŁMNØⱣꝖɌSŦᵾVWXɎƵ
-Dotted ѧɞċԀєғɢһıjҡʟṃṅȏƿզяṡṭȗṿẇ×ʏẓ Null
+Dotted ѧɞċԀєғɢһıjҡʟṃṅȏƿզяṡṭȗṿẇ×ʏẓ NULL
 Curvy ᗩᗷᑕᗪEᖴGᕼIᒍKᒪᗰᑎOᑭᑫᖇᔕTᑌᐯᗯ᙭Yᘔ NULL
 Minimum ᎪᏴᏟᎠᎬᎰᎶᎻᎥᏠᏦᏞᎷᏁᎾᏢℚᏒᎦᏆᏌᏉᎳXᎽᏃ NULL
