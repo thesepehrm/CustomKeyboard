@@ -11,11 +11,12 @@ with open("fonts.ck", "r") as fontsFile:
                 continue
             model = font.split(" ")
             temp = base
+            temp = temp.replace("<NAME>", model[0])
             for i in range(0, 26):
-                temp.replace(characters[i], model[1][i])
+                temp = temp.replace('"' + characters[i] + '"', '"' + model[1][i] + '"')
             if model[2] != "NULL":
                 for i in range(0, 26):
-                    temp.replace('"' + characters[i].upper() + '"', '"' + model[2][i] + '"')
+                    temp = temp.replace('"' + characters[i].upper() + '"', '"' + model[2][i] + '"')
             output = open(model[0] + ".keylayout", "w")
             output.write(temp)
             output.close()
