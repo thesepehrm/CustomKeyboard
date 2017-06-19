@@ -1,3 +1,5 @@
+# author: Sepehr Mohammadi
+
 characters = "abcdefghijklmnopqrstuvwxyz"
 
 with open("fonts.ck", "r") as fontsFile:
