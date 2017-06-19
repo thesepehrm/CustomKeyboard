@@ -5,7 +5,7 @@ characters = "abcdefghijklmnopqrstuvwxyz"
 
 with open("fonts.ck", "r") as fontsFile:
     fonts = fontsFile.read().splitlines()
-    with open("Base.keylayout", "r") as baseLayoutFile:
+    with open("Base/Base.keylayout", "r") as baseLayoutFile:
         base = baseLayoutFile.read()
         for font in fonts:
             if font[0] == "#":
@@ -19,6 +19,6 @@ with open("fonts.ck", "r") as fontsFile:
             if model[2] != "NULL":
                 for i in range(0, 26):
                     temp = temp.replace('"' + characters[i].upper() + '"', '"' + model[2][i] + '"')
-            output = open("Generated Files/" + model[0] + ".keylayout", "w")
+            output = open("Generated/" + model[0] + ".keylayout", "w")
             output.write(temp)
             output.close()
